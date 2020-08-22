@@ -10,7 +10,7 @@ If you'd like me to assist you with one of your projects, you may reach me on:
 - [LinkedIn](https://gitihub.com/codibez) 🧞‍♂️
 - [Twitter](https://twitter.com/codibez) 🕊
 
-Or use my contact form on my [portfolio page]()  💼
+> Or use my contact form on my [portfolio page]()  💼
 
 <!--
 **codibez/codibez** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
