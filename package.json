@@ -1,7 +1,7 @@
 {
   "name": "codibez",
   "version": "1.0.0",
-  "description": "Bonjour le monde! Je m'appelle Codi Bezouka-Smith. **Hello World! My name is Codi Bezouka-Smith**. I like to create blog posts about **Full-Stack Web Development** aimed towards *fellow developers* & absolutely *new web developers*, in hopes they'll find my articles useful to them.",
+  "description": "My portfolio Web App built with core Node.js modules & tailwindCSS.",
   "main": "app.js",
   "dependencies": {
     "tailwindcss": "^1.7.3"
@@ -10,7 +10,7 @@
     "nodemon": "^2.0.4"
   },
   "scripts": {
-    "build:css": ""
+    "build:css": "tailwind build src/style.css -o dist/style.output.css"
   },
   "keywords": [],
   "author": "",
