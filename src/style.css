@@ -8,4 +8,25 @@
 
 
 /* Basic styling */
-* { margin: 0; padding: 0; box-sizing: border-box; }
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+#wrapper { @apply text-black-3/4; }
+
+.menu-link {
+  @apply list-none p-2 text-gray;
+  -webkit-transition: 300ms linear;
+  -moz-transition: 300ms linear;
+  transition: 300ms linear;
+
+  background: linear-gradient(to right, transparent 50%, #D36363 50%);
+  background-size: 200% 100%;
+}
+
+.active {
+  @apply font-medium text-lg text-black-3/4;
+  background-position: -100% 0;
+}
+
+ul#skills li {
+  @apply mx-2;
+}

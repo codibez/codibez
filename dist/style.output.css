@@ -9919,6 +9919,10 @@ video {
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.font-body{
+  font-family: font-family: "Roboto", sans-serif;;
+}
+
 .font-hairline{
   font-weight: 100;
 }
@@ -21598,6 +21602,8 @@ video {
 
 .container{
   width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media (min-width: 640px){
@@ -21626,7 +21632,36 @@ video {
 
 /* Basic styling */
 
-* { margin: 0; padding: 0; box-sizing: border-box;
+* {
+  margin: 0; padding: 0; box-sizing: border-box;
+}
+
+#wrapper { --text-opacity: 1; color: #1A1A1A; color: rgba(26, 26, 26, var(--text-opacity));
+}
+
+.menu-link {
+  list-style-type: none;
+  padding: 0.5rem;
+  --text-opacity: 1;
+  color: #B3B3B3;
+  color: rgba(179, 179, 179, var(--text-opacity));
+  transition: 300ms linear;
+  background: linear-gradient(to right, transparent 50%, #D36363 50%);
+  background-size: 200% 100%;
+}
+
+.active {
+  font-weight: 500;
+  font-size: 1.125rem;
+  --text-opacity: 1;
+  color: #1A1A1A;
+  color: rgba(26, 26, 26, var(--text-opacity));
+  background-position: -100% 0;
+}
+
+ul#skills li {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 @media (min-width: 640px){
@@ -30951,6 +30986,10 @@ video {
 
   .sm\:font-mono{
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .sm\:font-body{
+    font-family: font-family: "Roboto", sans-serif;;
   }
 
   .sm\:font-hairline{
@@ -42566,6 +42605,8 @@ video {
 
   .sm\:container{
     width: 100%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   @media (min-width: 640px){
@@ -51915,6 +51956,10 @@ video {
 
   .md\:font-mono{
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .md\:font-body{
+    font-family: font-family: "Roboto", sans-serif;;
   }
 
   .md\:font-hairline{
@@ -63530,6 +63575,8 @@ video {
 
   .md\:container{
     width: 100%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   @media (min-width: 640px){
@@ -72879,6 +72926,10 @@ video {
 
   .lg\:font-mono{
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .lg\:font-body{
+    font-family: font-family: "Roboto", sans-serif;;
   }
 
   .lg\:font-hairline{
@@ -84494,6 +84545,8 @@ video {
 
   .lg\:container{
     width: 100%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   @media (min-width: 640px){
@@ -93843,6 +93896,10 @@ video {
 
   .xl\:font-mono{
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .xl\:font-body{
+    font-family: font-family: "Roboto", sans-serif;;
   }
 
   .xl\:font-hairline{
@@ -105458,6 +105515,8 @@ video {
 
   .xl\:container{
     width: 100%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   @media (min-width: 640px){
