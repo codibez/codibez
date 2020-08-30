@@ -9,4 +9,16 @@
 
 /* Basic styling */
 * {margin: 0; padding: 0; box-sizing: border-box;}
-#wrapper { @apply text-black-3/4; }
+#wrapper { @apply relative text-black-3/4 font-body; }
+
+/* Sidebar styling */
+.menu-link {
+  @apply px-4 py-2;
+
+  -webkit-transition: 269ms linear;
+  -moz-transition: 269ms linear;
+  transition: 269ms linear;
+
+  background: linear-gradient(to right, transparent 50%, #D36363 50%);
+  background-size: 200% 100%;
+}

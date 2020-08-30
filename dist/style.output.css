@@ -21636,32 +21636,19 @@ video {
   margin: 0; padding: 0; box-sizing: border-box;
 }
 
-#wrapper { --text-opacity: 1; color: #1A1A1A; color: rgba(26, 26, 26, var(--text-opacity));
+#wrapper { position: relative; --text-opacity: 1; color: #1A1A1A; color: rgba(26, 26, 26, var(--text-opacity)); font-family: font-family: "Roboto", sans-serif;;
 }
+
+/* Sidebar styling */
 
 .menu-link {
-  list-style-type: none;
-  padding: 0.5rem;
-  --text-opacity: 1;
-  color: #B3B3B3;
-  color: rgba(179, 179, 179, var(--text-opacity));
-  transition: 300ms linear;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  transition: 269ms linear;
   background: linear-gradient(to right, transparent 50%, #D36363 50%);
   background-size: 200% 100%;
-}
-
-.active {
-  font-weight: 500;
-  font-size: 1.125rem;
-  --text-opacity: 1;
-  color: #1A1A1A;
-  color: rgba(26, 26, 26, var(--text-opacity));
-  background-position: -100% 0;
-}
-
-ul#skills li {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
 }
 
 @media (min-width: 640px){

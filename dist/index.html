@@ -7,9 +7,9 @@
   <link rel="stylesheet" href="style.output.css" />
   <title>codibez.dev</title>
 </head>
-<body>
+<body class="font-body">
   <div id="wrapper">
-    <header class="bg-gray-900 py-4 text-white">
+    <header class="fixed w-full bg-gray-900 py-4 text-white">
       <div class="flex items-center justify-center">
         <div class="fill-current text-red mx-3">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1071.61 832.79" class="h-12">
@@ -20,6 +20,16 @@
         <p class="font-semibold text-3xl">codibez</p>
       </div>
     </header>
+
+    <div class="flex flex-col md:flex-row">
+      <section id="sidebar" class="fixed w-full md:w-4/12 px-4 bg-gray-200 mt-20">
+        <ul id="menu" class="text-gray font-normal bg-gray-100">
+          <li class="menu-link"><a href="#">About</a></li>
+          <li class="menu-link"><a href="#">Work</a></li>
+          <li class="menu-link"><a href="#">Blog</a></li>
+          <li class="menu-link"><a href="#">Contact</a></li>
+        </ul>
+    </div>  
   </div>
 </body>
 </html>
