@@ -6,7 +6,10 @@ module.exports = {
   theme: {
     extend: {
       container: {
-        center: false
+        center: true,
+      },
+      fontFamily: {
+        'body': 'font-family: "Roboto", sans-serif;',
       },
       textColor: {
         'gray': '#B3B3B3',
